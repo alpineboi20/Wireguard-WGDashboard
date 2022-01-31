@@ -5,8 +5,8 @@ This script is Experimental, use at your own risk.
 
 **Warning!** 
 This script assumes you have installed ufw & will be using it, the scrpt will enable ufw,
-& open the default ssh port, as not to get locked out of shh.
-If you are using a custom ssh port other than the default, and have ufw installed, open the custom port prior to running this script, or you will get locked out of ssh when ufw is enabled. You can close the default ssh port later, if you desire.
+& allow the default ssh port, as not to get locked out of shh.
+If you are using a custom ssh port other than the default, and have ufw installed, allow the custom port prior to running this script, or you will get locked out of ssh when ufw is enabled. You can close the default ssh port later, if you desire.
 
 IPv4 Only
 
