@@ -12,7 +12,7 @@ IPv4 Only
 
 Only tested on a fresh, Ubuntu Server 20.04 instance.
 
-Uses WGDashboard, as a frontend for peer managment.
+Uses WGDashboard, as a frontend for peer management.
 
 Credit to Donald Zou https://github.com/donaldzou/WGDashboard
 
