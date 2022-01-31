@@ -10,7 +10,7 @@ If you are using a custom ssh port other than the default, and have ufw installe
 
 IPv4 Only
 
-Only tested on a fresh, Ubuntu server 20.04 instance.
+Only tested on a fresh, Ubuntu Server 20.04 instance.
 
 Uses WGDashboard, as a frontend for peer managment.
 
