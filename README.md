@@ -18,4 +18,4 @@ Credit to Donald Zou https://github.com/donaldzou/WGDashboard
 
 **Install**
 
->curl -O https://raw.githubusercontent.com/alpineboi20/Wireguard-WGDashboard/main/insttall.sh && chmod +x install.sh && ./install.sh
+>curl -O https://raw.githubusercontent.com/alpineboi20/Wireguard-WGDashboard/main/install.sh && chmod +x install.sh && ./install.sh
