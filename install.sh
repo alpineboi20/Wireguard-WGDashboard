@@ -78,7 +78,6 @@ echo ""
 echo "Install WGDashboard...."
 git clone -b v3.0.3 https://github.com/donaldzou/WGDashboard.git /opt/wgdashboard > /dev/null 2>&1
 cd /opt/wgdashboard/src
-chmod -R 755 wgd.sh
 ./wgd.sh install > /dev/null 2>&1
 echo -e "${GREEN}"Done."${ENDCOLOR}"
 echo ""
@@ -89,6 +88,7 @@ echo -e "${GREEN}"Done."${ENDCOLOR}"
 echo ""
 #Update WGDashboard.
 echo "Update WGDashboard...."
+chmod 755 /opt/wgdashboard/src/wgd.sh
 echo Y | ./wgd.sh update > /dev/null 2>&1
 ./wgd.sh stop > /dev/null 2>&1
 echo -e "${GREEN}"Done."${ENDCOLOR}"
