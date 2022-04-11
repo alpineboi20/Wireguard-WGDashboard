@@ -88,7 +88,6 @@ echo -e "${GREEN}"Done."${ENDCOLOR}"
 echo ""
 #Update WGDashboard.
 echo "Update WGDashboard...."
-chmod 755 /opt/wgdashboard/src/wgd.sh
 echo Y | ./wgd.sh update > /dev/null 2>&1
 ./wgd.sh stop > /dev/null 2>&1
 echo -e "${GREEN}"Done."${ENDCOLOR}"
@@ -124,7 +123,8 @@ echo ""
 echo "WGDashboard Update:
 -------------------"
 echo "cd /opt/wgdashboard/src"
-echo "./wgd.sh update"
+echo "chmod 755 wgd.sh"
+echo "echo Y | ./wgd.sh update"
 echo ""
 echo "Wireguard Commands:
 -------------------"
